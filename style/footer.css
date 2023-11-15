@@ -1,0 +1,9 @@
+hr{
+    margin: 0;
+}
+
+.footer__title{
+    background-color: var(--white);
+    padding: 1em;
+    font-family: var(--main-font);
+}

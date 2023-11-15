@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBooks</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__button">
+            <label for="menu">
+                <span class="header__menu-hamburger container__image"></span>
+            </label>
+            <ul class="menu-list">
+                <li class="menu-list__title">Categorias</li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Filosofia</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Política</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Tecnologia</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Economia</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">DPP</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Romance</a>
+                </li>
+            </ul>
+            <img src="assets/icon_share_knowledge.png" alt="Logo da Gbooks" class="container__image">
+            <h1 class="container__title"><b class="container__title--bold">Conhecimento</b>Expresso</h1>
+        </div>
+
+        <ul class="options">
+            <li class="options__item"><a href="options__link"></a>Categorias</li>
+            <li class="options__item"><a href="options__link"></a>Favoritos</li>
+            <li class="options__item"><a href="options__link"></a>Minha estante</li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="assets/Favoritos.svg" alt="ícone de Favoritos Gbooks" class="container__image"></a>
+            <a href="#"><img src="assets/icon_bookshelf.jpg" alt="Ícone de sacola de compras"
+                    class="container__image container__image-transparent"></a>
+            <a href="#"><img src="assets/Usuario.svg" alt="Ícone de área do usuário" class="container__image"></a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__title">Já sabe por onde começar?</h2>
+        <p class="banner__text">Encontre em minha estante o que precisa para o seu crescimento!</p>
+        <input type="search" class="banner__search" placeholder="O que você gostaria de ler?">
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__title">Últimos livros lidos</h2>
+        <div class="swiper-pagination"></div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/book_discurso_metodo_descartes.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/book_manual_epicteto.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/o_banquete_platao.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/o_mito_da_caverna_platao.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/sobre_a_brevidade_da_vida_seneca.jpg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                        <h3 class="description__title">Talvez você também se interesse por...</h3>
+                        <h2 class="description__title-book">Aprendendo Inteligência</h2>
+                        <p class="description__text">Tornando-se mais inteligente com o primeiro passso: aprendendo a
+                            estudar!</p>
+                    </div>
+                    <img src="assets/aprendendo_inteligencia_pierluigi.jpg" alt="Capa do Livro Aprendendo Inteligência"
+                        class="description__image">
+                </div>
+
+                <div class="card__buttons">
+                    <ul class="buttons">
+                        <li class="buttons_items"><img src="assets/Favoritos.svg" alt=""></li>
+                        <li class="buttons_items"><img src="assets/Compras.svg" alt=""></li>
+                    </ul>
+                    <a href="#" class="buttons_anchor">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__title">Mais selecionados</h2>
+
+        <div class="swiper-pagination"></div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/como_fazer_amigos_influenciar_pessoas_d_carnegie.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/think_and_grow_rich_napoleon_hill.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/os_segredos_da_mente_milionaria_t_h_eker.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/a_unica_coisa_jay_papasan.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/book_vida_intelectual_serillanges.jpg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                        <img src="assets/Estrelinhas.svg" alt="Estrelas do autor" class="img__estrelas">
+                        <h3 class="description__title">Autor do mês</h3>
+                        <h2 class="description__author-name">Dale Carnigie</h2>
+                        <p class="description__text">Dale Carnegie foi um formador, escritor e orador norte-americano. Muito conhecido na literatura de desenvolvimento pessoal e profissional.</p>
+                    </div>
+                    <img src="assets/dale_carnegie.jpg" alt="Capa do Livro Aprendendo Inteligência"
+                    class="description__image">
+                </div>
+                <div class="card__buttons">
+                    <ul class="buttons">
+                        <li class="buttons_items"><img src="assets/Favoritos.svg" alt=""></li>
+                        <li class="buttons_items"><img src="assets/Compras.svg" alt=""></li>
+                    </ul>
+                    <a href="#" class="buttons_anchor">Saiba mais</a>
+                </div>
+
+            </div>
+    </section>
+
+    <section class="topics">
+        <h2 class="topics__title">Gêneros visitados recentemente</h2>
+        <ul class="topics__list">
+            <li class="topics__item">
+                <a href="" class="topics__link">Filosofia</a>
+            </li>
+            <li class="topics__item">
+                <a href="" class="topics__link">Autoajuda</a>
+            </li>
+            <li class="topics__item">
+                <a href="" class="topics__link">Política</a>
+            </li>
+            <li class="topics__item">
+                <a href="" class="topics__link">Aventura</a>
+            </li>
+            <li class="topics__item">
+                <a href="" class="topics__link">História</a>
+            </li>
+            <li class="topics__item">
+                <a href="" class="topics__link">Biografia</a>
+            </li>
+            <li class="topics__item">
+                <a href="" class="topics__link">Investimentos</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2 class="contact__title">Fique por dentro das novidades!</h2>
+        <p class="contact__text">Atualização de e-books, novos livros e muito mais!</p>
+        <input type="email" name="email" id="" placeholder="Cadastre seu e-mail" class="contact__email">
+    </section>
+
+    <hr/>
+
+    <footer>
+        <h2 class="footer__title">Grupo Conhecimento Expresso</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+
+    </script>
+</body>
+
+</html>
