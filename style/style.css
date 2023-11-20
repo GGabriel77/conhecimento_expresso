@@ -16,6 +16,8 @@
     --main-font: 'Poppins';
     --secundary-font: 'Josefin Sans';
     --black: #000000;
+    --gray: #474646;
+    --light-gray: #858585; 
 }
 
 body{
