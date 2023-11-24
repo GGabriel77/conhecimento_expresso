@@ -34,7 +34,8 @@
     font-family: var(--main-font);
     color: var(--light-dark);
     background: url("../assets/Email.svg") no-repeat;
-    padding-left: 2px;
+    background-position: 1em;
+    text-align: center;
 }
 
 @media screen and (min-width: 1024px){
