@@ -142,6 +142,7 @@
     }
 
     .container__text{
-        display: block  ;
+        display: block;
+        font-family: var(--main-font);
     }
 }
