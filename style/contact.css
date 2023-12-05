@@ -59,3 +59,8 @@
     }
 }
 
+@media screen and (min-width: 1724px){
+    .contact{
+        padding: 3em 25vw;
+    }
+}
